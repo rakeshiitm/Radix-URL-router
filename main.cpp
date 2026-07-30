@@ -96,7 +96,6 @@ int main() {
         "/api/invalid"
     };
 
-    cout << "--- Optimized Tree Router ---\n";
     for (const string& url : tests) {
         Match result = router.resolve(url);
         
